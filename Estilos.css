@@ -1,0 +1,685 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    color: rgb(7, 7, 102)
+}
+
+#Vaca{
+color: blue ;
+margin: 0;
+height: 0px;
+position: relative;
+left: 200px;
+
+}
+
+header nav{
+    float: right;
+    margin: 0;
+    padding: 10px;  
+    margin-right: 130px;   
+    
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: gray; 
+    margin:  10px  20px;    
+    
+}
+#Picale{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    position: absolute;     
+}
+
+.Contenedor{
+    margin-right: 70px;
+    max-width: 1200px;
+    height: 60px;    
+}
+
+.seccion1 {
+    background-color: #fff;
+    width: 992px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.Blanco {
+    position: absolute;
+    width: 496px;
+}
+.Foto1 {
+    top: auto;
+    left: 0;
+}
+
+.Foto1 h1 {
+    font-size: 44px;
+    font-weight: 900;
+    position: relative;
+    margin-top: 170px;
+    margin-left: 90px;
+}
+.Foto1 p {
+    position: relative;
+    width: 300px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.Icono1 {
+    position: absolute;
+    margin-top: 395px;
+    margin-left: 90px;
+    display: flex;
+    height: 20px;
+    justify-content: center;
+}
+.Icono1 p {
+    font-size: 20px;
+    position: relative;
+    line-height: 10px;
+    margin-top: 12px;
+    font-weight: bold;
+    margin-left: 8px;
+    color: blue;
+}
+
+.icon {
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-align: center;
+    width: 20px;
+    height: 20px;    
+    margin: 5px;
+    padding-top: 3px;    
+    border-radius: 2px;        
+}
+
+.icon2 {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 90px;
+    display: flex;
+    height: 20px;
+    justify-content: center;
+}
+.icon2 p {
+    font-size: 18px;
+    margin-top: 8px;
+    margin-left: 5px;
+    color: blue;
+    font-weight: bold;
+}
+.iconre {
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+    width: 23px;
+    height: 23px;
+    margin: 5px;
+    padding-top: 4px;    
+    border-radius: 2px;    
+}
+
+.icon-boton {
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    color: blue;
+    margin: 2px;
+    padding-top: 5px;
+    box-shadow: 3px 3px 4px rgba(128, 128, 128, 0.336);
+    background: rgba(180, 186, 240, 0.534);
+    border-radius: 2px;
+}
+.Section2 {
+    right: 0;
+}
+
+.Enfermera {
+    width: 496px;
+    height: auto;
+}
+
+.div-boton {
+    position: absolute;
+    display: flex;
+    background-color: #fff;
+    top: 540px;
+    left: 90px;
+    flex-wrap: wrap;
+    width: 650px;
+    height: 80px;
+    border-radius: 5px;
+    border: rgba(128, 128, 128, 0.349) 1px solid;
+    box-shadow: 3px 3px 8px rgb(191, 197, 212);
+}
+.div-boton2 {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100px;
+    position: relative;
+    display: block;
+}
+
+.input-locacion {
+    font-size: 15px;
+    margin-left: 30px;
+    width: 120px;
+    height: 25px;
+    border: 0;
+    color: rgba(0, 0, 139, 0.788);
+    font-weight: bold;
+}
+
+.div-fecha {
+    margin-top: 12px;
+    margin-left:60px;
+    width: 150px;
+    position: relative;
+    display: block;
+}
+.input-fechita {
+    font-size: 12px;
+    margin-left: 30px;
+    width: 120px;
+    height: 25px;
+    border: 0;
+    color: rgba(0, 0, 139, 0.74);
+    font-weight: bold;
+}
+.div-vacu {
+    margin-top: 12px;
+    margin-left: 10px;
+    width: 150px;
+    position: relative;
+    display: block;
+}
+.input-vaccine{
+    font-size: 15px;
+    margin-left: 25px;
+    width: 120px;
+    height: 25px;
+    border: 0;
+    color: rgba(0, 0, 139, 0.781);
+    font-weight: bold;
+}
+.div-submit {
+    width: 160px;
+    position: relative;
+    display: block;
+    height: 50px;
+}
+.submit {
+    position: relative;
+    width: 100px;
+    line-height: 40px;
+    margin-left: 37px;
+    margin-top: 18px;
+    background: blue;
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+    font-size: 16px;
+    padding: 0;
+}
+.submit:hover {
+    position: relative;
+    width: 100px;
+    line-height: 40px;
+    margin-left: 37px;
+    margin-top: 18px;
+    color: #fff;
+    background: darkblue;
+    font-size: 16px;    
+    border-radius: 5px;
+    border: 0;
+}
+
+
+
+.section2 {
+    background-color: #fff;
+    width: 992px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.Sect2 {
+    position: absolute;
+    width: 992px;
+}
+.div-logos {
+    width: 992px;
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+.logos-vacuna {
+    position: relative;
+    margin-right: 20px;    
+    margin-left: 20px;
+    width: 170px;
+}
+
+#logo-astrazeneca {
+    height: 75px;
+    top: 15px;
+}
+#logo-sinovac {
+    height: 20px;
+    top: 45px;
+}
+#logo-pfizer {
+    height: 50px;
+    top: 30px;
+}
+#logo-moderna {
+    height: 40px;
+    top: 35px;
+}
+.div-subsec {    
+    width: 902px;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 90px;
+    display: block;
+}
+.div-subsec h3 {
+    position: absolute;
+    width: 902px;    
+    margin-left: 90px;
+    font-size: 28px;
+    color: blue;
+}
+.div-subsec h2{
+    color: blue;
+}
+.div-subsec p {
+    position: absolute;
+    width: 450px;
+    top: 40px;
+    text-align: justify;
+}
+.div-subsec-bottom {
+    width: 800px;
+    max-width: 992px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 90px;
+    margin-top: 370px;
+    border-radius: 10px;
+}
+.beneficios {
+    width: 175px;
+    height: 230px;
+    border: 1px solid rgba(128, 128, 128, 0.151);
+    border-radius: 4px;
+    box-shadow: 0 2px 2px rgba(0, 0, 255, 0.26);
+    overflow: hidden;
+    margin: 10px;
+    text-align: center;
+    transition: all 0.25s;
+}
+.beneficios i {
+    margin-top: 15px;
+    border: 1px solid rgba(129, 129, 238, 0.062);
+    border-radius: 8px;
+    color: blue;
+    background: rgba(15, 15, 160, 0.082);
+    font-size: 20px;
+    padding: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 139, 0.212);
+}
+.beneficios h3 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+.beneficios p {
+    font-size: 11px;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+ .beneficios:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(54, 54, 230, 0.178);
+}
+
+/* Seccion 3  */
+.seccion3 {    
+    position: absolute;
+    background-color: #fff;
+    width: 992px;
+    max-width: 992px;
+    margin: 658px auto;
+    display: flex;
+    justify-content: center;
+}
+.sect3 {
+    display: block;
+    position: absolute;
+    width: 992px;
+    max-width: 992px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.div-sect3-left {
+    position: relative;
+    top: auto;
+    left: 0;
+}
+.Chava {
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    position: relative;
+    width: 496px;
+    top: 125px;
+} 
+
+.Texto-vaccine {
+    display: block;
+    width: 496px;
+    justify-content: center;
+    
+}
+.Texto-vaccine h3 {
+    font-size: 28px;
+    position: absolute;
+    left: 540px;
+    top: 78px;
+    width: 450px;
+    color: blue;
+    
+}
+.Texto-vaccine p {
+    position: absolute;
+    left: 540px;
+    top: 120px;
+    width: 380px;
+    font-size: 13px;
+    margin-top: 35px;
+    text-align: justify;    
+}
+
+
+.sect3-right {
+    font-size: 12px;
+    top: 235px;
+    left: 500px;
+    position: absolute;
+    width: 400px;
+    flex-wrap: wrap;
+    display: block;
+}
+.sect3-right {
+    width: 400px;
+}
+.nav-container {
+    width: 100%;
+}
+.listano{
+    width: 400px;
+}
+.listano {
+    width: 100%;
+    height: 45px;
+    list-style-type: none;
+    border-bottom: rgb(253, 237, 237) 3px solid;
+    transition: .7s;
+    overflow: hidden;
+}
+.abajo {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: rgba(207, 207, 216, 0.363);
+    color: blue;
+    cursor: pointer;   
+    line-height: 45px;
+    border-radius: 7px;
+}
+.abajo-i {
+    margin-right: 20px;
+    margin-top: -6px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+   
+   
+}
+.link-abajo{
+    text-align: left;
+    margin-top: -17px;
+    margin-left: 15px;
+    margin-right: auto;
+    text-decoration: none;
+    font-size: 23px;
+    
+}
+.fa-caret-down {
+    font-size: 20px;
+    transition: .3s;
+    padding: 2px;
+    padding-top: 0;
+    margin: 0;
+    width: 20px;
+    height: 20px;
+}
+.li-lista p{
+    padding: 10px;
+    
+}
+.scale {
+    height: 150px;
+}
+.rotate {
+    transform: rotate(180deg);
+}  
+
+
+/* Seccion  4 */
+
+.secccion4 {    
+    position: absolute;
+    background-color: #fff;
+    width: 992px;
+    max-width: 992px;
+    margin: 1308px auto;
+    display: flex;
+    justify-content: center;
+}
+.sect4 {
+    display: block;
+    position: absolute;
+    width: 992px;
+    max-width: 992px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Medico {
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    position: relative;
+    width: 430px;
+    top: 240px;
+    margin-left: 65px;
+    margin-right: 0;
+}
+.div-emergency {
+    width: 496px;  
+    position: relative;
+    top: 120px;
+    left: 90px;
+    
+}
+
+.div-emergency h3 {
+    font-size: 30px;    
+    position: relative;
+    color: blue;
+}
+.div-emergency p {
+    font-size: 13px;
+    margin-top: 10px;
+    width: 400px;
+    text-align: justify;
+}
+.contacto {
+    left: 90px;
+    width: 400px;
+    position: absolute;
+    top: 380px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.contacto div {
+    position: relative;
+    width: 180px;
+    height: 150px;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 5px;
+    padding: 20px 0;
+    border: 1px solid rgba(0, 0, 139, 0.144);
+    text-align: center;
+    border-radius: 10px;    
+    box-shadow: 2px 2px 7px rgba(0, 0, 139, 0.267);
+}
+.contacto-call, .contacto-chat, .contacto-videocall, .contacto-message {
+    margin-right: 10px;
+}
+.contacto-call i, .contacto-chat i, .contacto-videocall i, .contacto-message i {
+    position: absolute;
+    font-size: 20px;
+    border: 1px solid rgba(0, 0, 139, 0.171);
+    padding: 4%;
+    height: 25%;
+    margin-left: 10%;
+    border-radius: 10%;
+    background: rgba(0, 0, 255, 0.041);
+    box-shadow: 2px 2px 4px rgba(0, 0, 139, 0.363);
+    color: blueviolet;
+}
+.contacto-call h3, .contacto-chat h3, .contacto-videocall h3, .contacto-message h3 {
+    position: absolute;
+    font-size: 20px;
+    padding: 10px;
+    padding-top: 0;
+    margin-left: 55px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.contacto-call p, .contacto-chat p, .contacto-videocall p, .contacto-message p {
+    position: absolute;
+    font-size: 10px;
+    margin-left: 65px;
+    margin-top: 30px;
+    padding: 0;
+}
+.contacto-call button, .contacto-chat button, .contacto-videocall button, .contacto-message button {
+    display: block;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    width: 80%;
+    height: 30px;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;    
+    border: 1px solid rgba(0, 0, 139, 0.171);
+    border-radius: 20px;
+    color: rgb(192, 13, 22);
+    font-weight: bolder;
+}
+
+/* dfsfsdfsd*/
+
+footer{
+    position: absolute;
+    width: 100%;
+    padding: 10px ;
+    margin: 2100px;
+    margin-left: 50px;
+    margin-bottom: 400px;    
+    background-image: url(./pie.png); 
+    
+    
+}
+
+.pie{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+    margin: auto;
+    margin-top: 100px;    
+}
+
+.caja-pie{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;    
+    
+}
+.logo h1{
+    color: blue;
+    padding-bottom: 40px;
+}
+
+
+.caja-pie h2{
+    margin-bottom: 30px;
+    color: blue;
+    font-weight: 700px;
+
+}
+
+.caja-pie a{
+    margin-top: 10px;
+    color: blue;
+    font-weight: 600px;
+}
+
+.copy{
+   
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.copy p{
+margin-top: 20px;
+color: gray;
+
+}
+
+.copy hr{
+    border: none;
+    height: 1px;
+    color: gray;
+
+}
+
